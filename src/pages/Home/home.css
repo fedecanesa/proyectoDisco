@@ -1,0 +1,39 @@
+body {
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("../../../public/assets/hero.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    height: 0vh;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.image-container {
+    flex: 0 0 80%;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8; /* Ajusta la opacidad de la imagen de fondo según tus preferencias */
+}
+
+.content-container {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    color: #333; /* Cambia el color del texto para mejorar la legibilidad */
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
